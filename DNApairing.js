@@ -22,7 +22,7 @@ function pairElement(str) {
  var charArray = str.split("");
   //var firstChar = charArray[0];
   var dnaStrand = [];
-  //console.log(firstChar);
+//console.log(firstChar);
 //   if (firstChar === "G"){
 //     dnaStrand.push(["G","C"]);
 //   }
