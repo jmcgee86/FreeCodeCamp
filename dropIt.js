@@ -10,7 +10,7 @@ function dropElements(arr, func) {
      if (fail.length == arr.length){
        arr = [];
      }
-     if (func(arr[n])){
+     else if (func(arr[n])){
       arr.splice(0,n);
       break;
     }
